@@ -1,0 +1,8 @@
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Access-Control-Allow-Origin: dork.offsec.nl cloudflareinsights.com
+  Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+  Access-Control-Allow-Headers: *
+  Referrer-Policy: strict-origin-when-cross-origin
+  Content-Security-Policy: frame-ancestors 'self' https://dork.offsec.nl; script-src 'self' https://dork.offsec.nl https://static.cloudflareinsights.com 'unsafe-inline'; connect-src https://dork.offsec.nl https://cloudflareinsights.com https://raw.githubusercontent.com; worker-src 'self' blob:; block-all-mixed-content; upgrade-insecure-requests;
