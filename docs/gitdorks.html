@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             max-width: 1200px;
             margin: 0 auto;
-            background-color: #212121;
+            background-color: #000000;
             color: #f0f0f0;
             padding: 20px;
             box-sizing: border-box;
@@ -29,7 +29,7 @@
         }
         button {
             font-size: 1em;
-            background-color: #b50bdb;
+            background-color: #ff7900;
             color: white;
             border: none;
             padding: 6px 12px;
@@ -37,7 +37,7 @@
             margin-left: 5px;
         }
         button:hover {
-            background-color: #b94bd1;
+            background-color: #ff7900;
         }
         ul {
             list-style-type: none;
@@ -48,12 +48,12 @@
         }
         a {
             text-decoration: none;
-            color: #b96fc9;
+            color: #ff7900;
             margin-left: 50px;
         }
         a:hover {
             text-decoration: underline;
-            color: #b50bdb;
+            color: #ff7900;
         }
         p {
             margin: 0;
@@ -90,17 +90,18 @@
     <section>
         <h2>Additional Resources & Credits</h2>
         <ul class="link-list">
-            <li><a href="https://mathis2001.github.io/googledorks" target="_blank">Google Dorks Generator</a></li>
-            <li><a href="https://mathis2001.github.io/shodandorks" target="_blank">Shodan Dorks Generator</a></li>
+            <li><a href="https://dork.offsec.nl/googledorks" target="_blank">Google Dorks Generator</a></li>
+            <li><a href="https://dork.offsec.nl/shodandorks" target="_blank">Shodan Dorks Generator</a></li>
             <li><a href="https://s1rn3tz.gitbook.io/notes/pentest-web" target="_blank">Details and exploitation of results</a></li>
             <li><a href="https://github.com/TakSec/google-dorks-bug-bounty/" target="_blank">Original page - TakSec</a></li>
+            <li><a href="https://github.com/mathis2001/mathis2001.github.io" target="_blank">Fork - mathis2001</a></li>
         </ul>
     </section>
     <script>
         let originalDorks = [];
 
         async function fetchDorks() {
-            const url = "https://raw.githubusercontent.com/mathis2001/mathis2001.github.io/main/Github%20Dorks.md";
+            const url = "https://raw.githubusercontent.com/crypt0rr/dork.offsec.nl/main/Github%20Dorks.md";
             const response = await fetch(url);
             const text = await response.text();
 
