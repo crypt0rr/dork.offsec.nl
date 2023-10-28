@@ -1,5 +1,7 @@
 # Google Dorks for Bug Bounty
 
+**NOTE** This fork is hosted with [CloudFlare Pages](https://pages.cloudflare.com/) at [dork.offsec.nl](https://dork.offsec.nl/).
+
 A list of Google Dorks for Bug Bounty, Web Application Security, and Pentesting
 
 Credits to TakSec: <https://taksec.github.io/google-dorks-bug-bounty/> and <https://mathis2001.github.io>
